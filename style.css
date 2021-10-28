@@ -1,0 +1,72 @@
+:root{
+    --width-elements: 95%;
+    --hight-elements: 10px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image:linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)), 
+      url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg')
+  }
+  h1{
+    font-size:40px;
+  }
+  
+  header{
+    color:#F9F9F9;
+  }
+  
+  header{
+    text-align:center;
+  }
+  
+  #main-form{
+    margin:1% 25%;
+    background-color:rgba(48, 46, 83, 0.7);
+      border: 1px solid rgba(61, 60, 108, 0.7);
+    border-radius: 10px;
+    line-height:2;
+  }
+  
+  #survey-form{
+    margin-left:2%;
+    text-align:5%;
+    color:#F9F9F9;
+    font-size:20px;
+    
+    
+  }
+  
+  #submit, #name, #email, #number, #dropdown, #favorite, #favorite-feature, #suggestion{
+    width:var(--width-elements);
+    font-size:21px;
+    margin-bottom:20px;
+    padding:10px;
+    border: 1px solid white;
+    border-radius: 10px;  
+  } 
+  
+  #name-label{
+    line-height:2;
+  }
+  
+  
+  #submit{
+    border: 1px solid #35CF80;
+    color:#F9F9F9;
+    background-color:#35CF80;
+    width:var(--width-elements);
+  }
+  
+  #submit:hover{
+    background-color:#168F56;
+    border: 1px solid #168F56;
+  }
+  
+  
